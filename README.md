@@ -14,14 +14,23 @@ um arquivo CSV.
 Com o python devidamente instalado, na raiz do projeto execute:
 
 Crie um venv
+
 - `python -m venv .venv`
+ 
 Ative o venv
+
 - Windows: `.venv/bin/activate.bat`
 - Linux : `source .venv/bin/activate`
+ 
 Instale as dependências
+
 - `pip install -r requirement.txt`
+
 Rode a app
+
 - `fastapi dev main.py`
+# Script de teste 
 
 Em outro terminal(com o venv ativado):
+
 - `python script.py`
